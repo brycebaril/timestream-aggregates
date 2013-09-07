@@ -1,0 +1,48 @@
+{
+  "name": "timestream-aggregates",
+  "version": "0.0.0",
+  "description": "Aggregation operations for timeseries streams (objectMode streams ordered by timestamp)",
+  "main": "aggregates.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "array-pivot": "~1.0.0",
+    "stats-lite": "~1.0.0",
+    "stream-splice": "~1.0.3",
+    "floordate": "~1.0.1",
+    "through2": "~0.2.1",
+    "through2-map": "~1.1.0",
+    "isnumber": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~1.1.0",
+    "timestream-gen": "~0.1.0",
+    "concat-stream": "~1.0.1",
+    "stream-spigot": "~2.1.1"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/timestream-aggregates.git"
+  },
+  "keywords": [
+    "aggregate",
+    "sum",
+    "mean",
+    "mode",
+    "median",
+    "stats",
+    "timeseries",
+    "timestream",
+    "stream",
+    "objectmode"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/timestream-aggregates/issues"
+  }
+}
