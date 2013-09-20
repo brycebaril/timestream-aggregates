@@ -9,10 +9,10 @@
   "dependencies": {
     "array-pivot": "~1.0.0",
     "stats-lite": "~1.0.0",
-    "stream-splice": "~1.0.3",
+    "stream-splice": "~1.0.4",
     "floordate": "~1.0.1",
-    "through2": "~0.2.1",
-    "through2-map": "~1.1.0",
+    "through2": "~0.2.2",
+    "through2-map": "~1.2.0",
     "isnumber": "~1.0.0"
   },
   "devDependencies": {
