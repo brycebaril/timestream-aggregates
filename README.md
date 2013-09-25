@@ -3,6 +3,9 @@ timestream-aggregates
 
 [![NPM](https://nodei.co/npm/timestream-aggregates.png)](https://nodei.co/npm/timestream-aggregates/)
 
+[![david-dm](https://david-dm.org/brycebaril/timestream-aggregates.png)](https://david-dm.org/brycebaril/timestream-aggregates/)
+[![david-dm](https://david-dm.org/brycebaril/timestream-aggregates/dev-status.png)](https://david-dm.org/brycebaril/timestream-aggregates#info=devDependencies/)
+
 Aggregation functions for objectMode streams. Contains a set of stream Transforms that accept objectMode streams with a sequenceKey and aggregate all other values of each record into chunks at regular intervals.
 
 This is most useful for timeseries data as the chunked aggregation function is designed to slice data by time.

@@ -16,10 +16,10 @@
     "isnumber": "~1.0.0"
   },
   "devDependencies": {
-    "tape": "~1.1.0",
+    "tape": "~1.1.1",
     "timestream-gen": "~0.1.0",
     "concat-stream": "~1.0.1",
-    "stream-spigot": "~2.1.1"
+    "stream-spigot": "~2.1.2"
   },
   "scripts": {
     "test": "node test/"
