@@ -8,18 +8,18 @@
   },
   "dependencies": {
     "array-pivot": "~1.0.1",
-    "stats-lite": "~1.0.0",
-    "stream-splice": "~1.0.6",
+    "stats-lite": "~1.0.1",
+    "stream-splice": "~1.0.7",
     "floordate": "~1.0.1",
-    "through2": "~0.2.3",
-    "through2-map": "~1.2.0",
+    "through2": "~0.4.1",
+    "through2-map": "~1.2.1",
     "isnumber": "~1.0.0"
   },
   "devDependencies": {
-    "tape": "~1.1.1",
-    "timestream-gen": "~0.1.0",
-    "concat-stream": "~1.0.1",
-    "stream-spigot": "~2.1.2"
+    "tape": "~2.4.0",
+    "timestream-gen": "~0.1.1",
+    "concat-stream": "~1.4.1",
+    "stream-spigot": "~3.0.3"
   },
   "scripts": {
     "test": "node test/"
