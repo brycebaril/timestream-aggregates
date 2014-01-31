@@ -1,6 +1,6 @@
 {
   "name": "timestream-aggregates",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Aggregation operations for timeseries streams (objectMode streams ordered by timestamp)",
   "main": "aggregates.js",
   "directories": {
