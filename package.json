@@ -10,7 +10,7 @@
     "array-pivot": "~1.0.1",
     "stats-lite": "~1.0.1",
     "stream-splice": "~1.0.7",
-    "floordate": "~1.0.1",
+    "floordate": "~1.0.2",
     "through2": "~0.4.1",
     "through2-map": "~1.2.1",
     "isnumber": "~1.0.0"

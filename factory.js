@@ -22,6 +22,7 @@ function factory(fn) {
       var pivoted = pivot(record.set)
       var aggregated = {}
       aggregated[seqKey] = record[seqKey]
+      // For lots of keys a for() might be faster here...
       Object.keys(pivoted).forEach(function (key) {
         if (key == seqKey) return
         aggregated[key] = fn.call(null, pivoted[key], option)
