@@ -45,7 +45,7 @@ test("sum entire series (with timestamp)", function (t) {
     var expected = [{_t: 1378450800000, gen: 55}]
     t.deepEquals(results, expected, "Got expected results")
   }
-  series.pipe(agg.sum("_t", "day")).pipe(concat(check))
+  series.pipe(agg.sum("_t", "day", "UTC")).pipe(concat(check))
 })
 
 test("sum multi column", function (t) {
