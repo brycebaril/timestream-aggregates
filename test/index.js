@@ -5,6 +5,7 @@ var gen = require("timestream-gen").gen
 var spigot = require("stream-spigot")
 
 var agg = require("../aggregates")
+var floordate = require("floordate")
 
 test("init", function (t) {
   t.equals(typeof agg.sum, "function", "sum is a function")
@@ -41,8 +42,10 @@ test("sum entire series (with timestamp)", function (t) {
   var now = 1378510797174
   var series = gen({start: now, until: now + 1000, interval: 100})
 
+  var expectedEnd = floordate(now, "day").getTime()
+
   function check(results) {
-    var expected = [{_t: 1378450800000, gen: 55}]
+    var expected = [{_t: expectedEnd, gen: 55}]
     t.deepEquals(results, expected, "Got expected results")
   }
   series.pipe(agg.sum("_t", "day")).pipe(concat(check))
